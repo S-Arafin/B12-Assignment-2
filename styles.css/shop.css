@@ -1,16 +1,91 @@
-
 .inter-secondry {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .noto-serif-primary {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+.color-primary {
+    color: rgba(233, 90, 8, 1);
+
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.text-color {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    padding: 19x 80px;
+    border: none;
+}
+
+/* nav bar design */
+nav {
+    gap: 40.875em;
+    padding: 2em 9.375em;
+    justify-content: center;
+
+
+}
+ul{
+    list-style: none;
+    gap: 3em;
+    justify-content: center;
+    align-items: center; 
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.cart {
+    align-items: center;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+#s1{
+    font-weight: 700;
+    color: black;
+}
+/* hero banner */
+.hero{
+    justify-content: center;
+    gap: 6.75em;
+    margin-top: 10em;
+    
+}
+.hero-text h1{
+    font-size: 4.0625em;
+}
+.hero-text p{
+    font-size: 1.375em;
+
+}
+
+
+@media screen and (max-width:576px) {
+
+    
 }
