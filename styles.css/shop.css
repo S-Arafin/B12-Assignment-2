@@ -28,64 +28,153 @@
     display: grid;
 }
 
-.text-color {
+.text-overall {
     color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
 }
 
 .btn-primary {
     background-color: rgba(233, 90, 8, 1);
     color: white;
-    padding: 19x 80px;
+    padding: 1.1875rem 5.65rem;
     border: none;
 }
 
 /* nav bar design */
 nav {
-    gap: 40.875em;
-    padding: 2em 9.375em;
+    gap: 40.875rem;
+    padding: 2em 9.375rem;
     justify-content: center;
 
 
 }
-ul{
+
+ul {
     list-style: none;
-    gap: 3em;
+    gap: 3rem;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
 .cart {
     align-items: center;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 500;
 }
-#s1{
+
+#s1 {
     font-weight: 700;
     color: black;
 }
+
 /* hero banner */
-.hero{
+.hero {
     justify-content: center;
-    gap: 6.75em;
-    margin-top: 10em;
-    
-}
-.hero-text h1{
-    font-size: 4.0625em;
-}
-.hero-text p{
-    font-size: 1.375em;
+    gap: 6.75rem;
+    margin-top: 10rem;
 
 }
+.hero-text{
+    max-width: 32rem;
+}
+
+.hero-text h1 {
+    font-size: 4.0625rem;
+}
+
+.hero-text p {
+    font-size: 1.375rem;
+
+}
+/* shop  */
+.shop-text{
+    text-align: center;
+}
+#p1{
+    font-size: 3.125rem;.card p{}
+    
+}
+.flower-shop-card{
+    width: 100%;
+    max-width: 1200px;
+    grid-auto-rows: auto;
+    font-size: 1.375rem;
+    padding: 15rem;
+    padding-top: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    gap:1.25rem;
+    justify-items: center;
+    align-items: center;
+}
+.p02{
+    font-weight: bold;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card p{
+    text-align: center;
+}
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
+    .display-none{
+        display: none;
+    }
+   
+    .hero{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    nav{
+        gap: 10rem;
+        padding: 1em;
+    }
+    .hero-text{
+        padding: 1em;
+        text-align: justify;
+    }
+    .hero-text h1{
+        font-size: 250%;
+    }
+    .hero-image img{
+       margin-top: -10rem;
+       max-width: 100%;
+       margin-left: 0.490rem;
 
+
+    }
+    .flower-shop-card{
+        grid-template-columns:repeat(2,1fr);
+        
+    }
+    
+    .card{
+        width: 12rem;
+        }
+    
+    
     
 }
