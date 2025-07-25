@@ -352,5 +352,61 @@ ul li a {
     .at-first{
         flex-direction: column;
     }
+    .subscribe-content h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  .subscribe-form input {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .subscribe-form button {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-links {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social {
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .footer-social img {
+    width: 28px;
+    height: 28px;
+  }
     
 }
